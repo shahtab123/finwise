@@ -324,45 +324,8 @@ finwise/
 
 ```
 
-### Best Practices
-
-1. **Component Organization**
-   - One component per file
-   - Co-locate related components
-   - Keep components focused and reusable
-
-2. **State Management**
-   - Use React hooks for local state
-   - Implement context where needed
-   - Keep state close to where it's used
-
-3. **Code Style**
-   - Follow TypeScript best practices
-   - Use ESLint and Prettier
-   - Maintain consistent formatting
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
 ## License
 
 This project is licensed under the MIT License.
 
-## Environment Setup
-
-1. Copy the `.env.local.example` file to `.env.local`:   ```bash
-   cp .env.local.example .env.local   ```
-
-2. Add your OpenAI API key to `.env.local`:
-   - Get your API key from [OpenAI's dashboard](https://platform.openai.com/api-keys)
-   - Replace `your-api-key-here` in `.env.local` with your actual API key
-
-⚠️ **Important Security Notes**:
-- Never commit your actual API key to version control
-- Keep your `.env.local` file in your `.gitignore`
-- If you accidentally exposed your API key, rotate it immediately in your OpenAI dashboard
+---
